@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+width: 100%;
+height: 10vh;
+background-color: #00cccc;
+color: azure;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+.content-container{
+width: 100%;
+min-height: 80vh;
+display: flex;
+align-items: center;
+flex-direction: column;
+
+}
+.tabs{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+
+}
+.tab-league{
+    display: flex;
+width: 300px;
+align-items: center;
+justify-content: center;
+background-color: blueviolet;
+color: #fff;
+height: 50px;
+border-right: 5px solid #cccc;
+cursor: grabbing;
+}
+.tab-standings{
+    display: flex;
+width: 300px;
+align-items: center;
+justify-content: center;
+background-color: blueviolet;
+color: #fff;
+height: 50px;
+cursor: grabbing;
+}
+.footer{
+    width: 100%;
+    height: 10vh;
+    background-color: #00cccc;
+    color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.leagues-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+}
+.league-div >img{
+    width: 250px;
+}
+.league-div{
+    margin: 20px 0;
+}
+.league-div:hover{
+    transform: scale(1.1);
+}
+.standing-results{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.standing-info-div{
+    margin: 20px 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.select-fields{
+    width:400px;
+   
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icon{
+    color: #825736;
+   margin: 7px  0 0 7px;
+   
 }
