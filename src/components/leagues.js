@@ -22,7 +22,7 @@ const [data,setData]= useState([]);
      {data.map((data)=> (
    <div key={data.id} className='league-div'>
      <img src={data.logos.light} alt="#"/>
-     <h1>{data.name}</h1>
+     <h1 className='league-name'>{data.name}</h1>
      
      </div>
   ))}

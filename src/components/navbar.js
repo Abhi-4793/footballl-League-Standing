@@ -4,8 +4,8 @@ import SportsFootballSharp from '@mui/icons-material/SportsFootballSharp';
 const Navbar = () => {
   return (
     <div className='navbar'>
-     <h1>Football App  </h1>
-     <SportsFootballSharp className='icon'/>
+     <h1>Football MatchBoard</h1>
+     <SportsFootballSharp sx ={{fontSize:28}} className='icon'/>
     </div>
   )
 }

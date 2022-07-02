@@ -13,14 +13,24 @@ align-items: center;
 justify-content: center;
 text-align: center;
 }
+.league-name{
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+}
 .content-container{
+    background-image: url("D:\web full\footballlist\src\components\football1.jpg");
+    background-size: cover;  
 width: 100%;
 min-height: 80vh;
 display: flex;
 align-items: center;
 flex-direction: column;
+z-index: -100;
+filter: opacity(10px);
 
 }
+
 .tabs{
     display: flex;
     flex-direction: row;
@@ -91,7 +101,9 @@ cursor: grabbing;
    
 }
 .icon{
+    
     color: #825736;
    margin: 7px  0 0 7px;
    
 }
+

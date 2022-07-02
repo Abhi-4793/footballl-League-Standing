@@ -75,7 +75,7 @@ const Standings = () => {
    { Loading ? <MutatingDots color="#32a88d" height={120} width={120}  /> :
    data.map((data,index)=> (
     <div key={data.team.id} className="standing-info-div">
-    <h1>
+    <h1 className='league-name'>
     <span>
     {`${index+1}.`}<img src={data.team.logos[0].href} alt="#" style={{ width: "30px"}} />
     </span>
