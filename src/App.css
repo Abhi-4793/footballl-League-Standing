@@ -19,7 +19,7 @@
   text-align: center;
 }
 .content-container {
-  background-image: url("D:\web full\footballlist\src\components\football1.jpg");
+  background-image: url("/src/components/football1.jpg");
   background-size: cover;
   width: 100%;
   min-height: 80vh;
