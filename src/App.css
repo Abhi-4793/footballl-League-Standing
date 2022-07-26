@@ -1,109 +1,103 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-.navbar{
-width: 100%;
-height: 10vh;
-background-color: #00cccc;
-color: azure;
-display: flex;
-align-items: center;
-justify-content: center;
-text-align: center;
+.navbar {
+  width: 100%;
+  height: 10vh;
+  background-color: #00cccc;
+  color: azure;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
-.league-name{
-    color: #fff;
-    font-size: 25px;
-    text-align: center;
+.league-name {
+  color: #fff;
+  font-size: 25px;
+  text-align: center;
 }
-.content-container{
-    background-image: url("D:\web full\footballlist\src\components\football1.jpg");
-    background-size: cover;  
-width: 100%;
-min-height: 80vh;
-display: flex;
-align-items: center;
-flex-direction: column;
-z-index: -100;
-filter: opacity(10px);
-
-}
-
-.tabs{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    margin: 50px 0;
-
-}
-.tab-league{
-    display: flex;
-width: 300px;
-align-items: center;
-justify-content: center;
-background-color: blueviolet;
-color: #fff;
-height: 50px;
-border-right: 5px solid #cccc;
-cursor: grabbing;
-}
-.tab-standings{
-    display: flex;
-width: 300px;
-align-items: center;
-justify-content: center;
-background-color: blueviolet;
-color: #fff;
-height: 50px;
-cursor: grabbing;
-}
-.footer{
-    width: 100%;
-    height: 10vh;
-    background-color: #00cccc;
-    color: azure;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-.leagues-container{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    justify-items: center;
-}
-.league-div >img{
-    width: 250px;
-}
-.league-div{
-    margin: 20px 0;
-}
-.league-div:hover{
-    transform: scale(1.1);
-}
-.standing-results{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+.content-container {
+  background-image: url("D:\web full\footballlist\src\components\football1.jpg");
+  background-size: cover;
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  z-index: -100;
+  filter: opacity(10px);
 }
 
-.standing-info-div{
-    margin: 20px 0;
+.tabs {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
 }
-.select-fields{
-    width:400px;
-   
+.tab-league {
+  display: flex;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+  background-color: #03fc5a;
+  color: #fff;
+  height: 50px;
+  border-right: 5px solid #cccc;
+  cursor: grabbing;
 }
-.icon{
-    
-    color: #825736;
-   margin: 7px  0 0 7px;
-   
+.tab-standings {
+  display: flex;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+  background-color: #03fc5a;
+  color: #fff;
+  height: 50px;
+  cursor: grabbing;
+}
+.footer {
+  width: 100%;
+  height: 10vh;
+  background-color: #00cccc;
+  color: azure;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.leagues-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+.league-div > img {
+  width: 250px;
+}
+.league-div {
+  margin: 20px 0;
+}
+.league-div:hover {
+  transform: scale(1.1);
+}
+.standing-results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
+.standing-info-div {
+  margin: 20px 0;
+}
+.select-fields {
+  width: 400px;
+}
+.icon {
+  color: #825736;
+  margin: 7px 0 0 7px;
+}
